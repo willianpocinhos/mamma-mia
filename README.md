@@ -1,6 +1,6 @@
 <h1>MAMMA MIA</h1>
 <h2>Proposta</h2>
-<p>Neste projeto eu coloquei em prática meus recentes aprendizados em JavaScript (funções de array: 'map', 'reduce' e 'filter')</p>
+<p>Neste projeto eu coloquei em prática meus recentes aprendizados em JavaScript (funções de array: map, reduce e filter).</p>
 <p>
   Com o objetivo de fazer o uso das funções de forma mais dinâmica, eu desenvolvi este projeto fictício para o restaurante Mamma Mia.
   <br>
