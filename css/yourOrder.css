@@ -1,0 +1,141 @@
+.order-title {
+    color: #E30016;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Style Script', cursive;
+}
+
+.order-subtitle {
+    text-align: center;
+    color: #006828;
+    font-size: 2.6rem;
+    font-weight: normal;
+    margin-bottom: 4rem;
+    letter-spacing: -0.6px;
+}
+
+.your-order {
+    /* border: 1px solid red; */
+    max-width: 130rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.explorar-btn{
+    border: none;
+    background-color: #006828;
+    color: #FFF6B4;
+    padding: 1.3rem 3rem;
+    border-radius: 100px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-size: 1.8rem;
+    transition: 0.2s;
+    box-shadow: 2px 2px 4px #757575;
+    display: block;
+    margin: 4rem auto 0;
+}
+
+.explorar-btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 104, 40, 0.8);
+}
+
+.order-box {
+    display: flex;
+    justify-content: center;
+}
+
+.order-meal-img {
+    width: 8rem;
+}
+
+.mobile-tr img{
+    margin-bottom: .6rem;
+}
+
+.order-meal-subtotal {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1.3rem;
+    height: 5rem;
+    background-color: #FFF6B4;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    width: 15rem;
+}
+
+.mobile-thead{
+    display: none;
+}
+
+.mobile-tr{
+    display: none;
+}
+
+.mobile-tfoot{
+    display: none;
+}
+
+td{
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    border-collapse: separate;
+    height: 8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mobile-tr td{
+    height: 12rem;
+}
+
+.main-tfoot{
+    border-top: 3px solid #006828;
+}
+
+.mobile-tfoot{
+    border-top: 3px solid #006828;
+}
+
+.remove-btn{
+    color: #E30016;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+    transition: 0.2s;
+}
+
+.remove-btn:hover{
+    color: #E30016;
+    scale: 1.2;
+}
+
+tfoot td:first-child{
+    text-align: right;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #006828;
+}
+
+tfoot td:last-child{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #006828;
+}
+
+tfoot td{
+    border: none;
+}

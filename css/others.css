@@ -1,0 +1,186 @@
+/* *************************************** */
+/* GERAL */
+/* *************************************** */
+
+.others {
+    padding: 0 5rem;
+    max-width: 130rem;
+    margin-bottom: 3rem;
+    /* border: 1px solid red; */
+    display: none;
+}
+
+.title {
+    color: #E30016;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Style Script', cursive;
+}
+
+.subtitle {
+    text-align: center;
+    color: #006828;
+    font-size: 2.6rem;
+    font-weight: normal;
+    margin-bottom: 4rem;
+    letter-spacing: -0.6px;
+}
+
+.select-box {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    margin-bottom: 4rem;
+    text-align: center;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid #006828;
+    width: 20rem;
+    height: 4rem;
+    border: 1px solid;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+.meals {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meal-box {
+    width: 26rem;
+    height: 38rem;
+    border-radius: 12px;
+    box-shadow: 0 1rem 4rem rgb(182, 182, 182);
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.meal-box:hover {
+    margin-top: -1.2rem;
+    box-shadow: 0 2rem 6rem rgb(182, 182, 182);
+}
+
+.meal-info {
+    padding: 0 2rem;
+}
+
+.meal-img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.meal-category {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.meal-category li {
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    border: 1px solid currentColor;
+    background-color: currentColor;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.4px;
+}
+
+.meal-category .traditional {
+    background-color: #E30016;
+}
+
+.meal-category .vegetarian {
+    background-color: #006828;
+}
+
+.meal-category .top5 {
+    background-color: black;
+}
+
+.meal-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+
+}
+
+.ingredients span {
+    font-weight: 600;
+}
+
+.ingredients {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    color: #006828;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.price-qtd-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-qtd-box .qtd-box{
+    font-size: 1.4rem;
+}
+
+.descount {
+    background-color: #E30016;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    color: white;
+    padding: 0.1rem 0.3rem;
+    font-weight: 600;
+}
+
+.qtd-btn{
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    outline: none;
+    font-weight: 700;
+}
+
+.qtd{
+    margin: 0 .5rem;
+}
+
+.add-btn-box{
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn{
+    border: none;
+    cursor: pointer;
+    background-color: #006828;
+    color: white;
+    padding: .5rem 1rem;
+    margin-top: 3.5rem;
+    border-radius: 5px 5px 0 0;
+    transition: .4s .05s;
+}
+
+.add-btn:hover{
+    background-color: rgb(0, 104, 40, .8);
+}
+
+.add-btn:active{
+    background-color: rgb(0, 104, 40, .5);
+    transition: 0s;
+}
+
+.add-btn-touchScreen{
+    display: none;
+}

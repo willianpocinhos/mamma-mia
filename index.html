@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="css/yourOrder.css">
+    <link rel="stylesheet" href="css/responsivity.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo" onclick="callHomePage()">
+                <h1>Mamma <span>Mia</span></h1>
+            </a>
+            <nav class="nav-main">
+                <ul>
+                    <li><a href="#" class="cardapio-btn" onclick="callCardapio()">
+                            <i class="fa-solid fa-utensils"></i>
+                            Cardápio</a>
+                    </li>
+                    <li><a href="#" class="promocoes-btn" onclick="callPromocoes()">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                            Promoções</a>
+                    </li>
+                    <li><a href="#" class="categorias-btn" onclick="callCategorias()">
+                            <i class="fa-solid fa-list-ul"></i> Categorias</a>
+                    </li>
+                    <li>
+                        <a href="#" class="last-link" onclick="callPedido()">
+                            <i class="fa-regular fa-clipboard"></i> Seu
+                            Pedido</a>
+                    </li>
+                    <span class="qtt-label"></span>
+                </ul>
+            </nav>
+
+            <nav class="nav-mobile">
+                <ul>
+                    <li><a href="#" class="cardapio-btn" onclick="callCardapio()">
+                            <i class="fa-solid fa-utensils"></i>
+                            Cardápio</a>
+                    </li>
+                    <li><a href="#" class="promocoes-btn" onclick="callPromocoes()">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                            Promoções</a>
+                    </li>
+                    <li><a href="#" class="categorias-btn" onclick="callCategorias()">
+                            <i class="fa-solid fa-list-ul"></i> Categorias</a>
+                    </li>
+                    <li>
+                        <a href="#" class="last-link" onclick="callPedido()">
+                            <i class="fa-regular fa-clipboard"></i> Seu
+                            Pedido</a>
+                            <span class="qtt-label-mobile"></span>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-nav-btn">
+                <i id="menu-btn" class="fa-solid fa-bars" onclick="showMobileNav()"></i>
+                <i id="close-btn" class="fa-solid fa-xmark" onclick="hideMobileNav()"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="home">
+            <main>
+                <div class="text-box">
+                    <h2>Bem-vindo ao &nbsp;Mamma Mia!</h2>
+
+                    <p>"Onde cada garfada é uma dança de sabores e cada prato conta a história do verdadeiro amor pela
+                        culinária
+                        italiana."</p>
+
+                    <button onclick="callCardapio()">Conhecer Cardápio</button>
+                </div>
+                <div class="img-box">
+                    <img src="assets/pasta-on-fork.jpg" alt="garfo com espaguete" width="600px">
+                </div>
+                <div class="responsive">
+                    <button onclick="callCardapio()">Conhecer Cardápio</button>
+                </div>
+            </main>
+        </div>
+
+        <div class="others">
+            <h3 class="title">
+                <!-- PREENCHIDO COM JS -->
+            </h3>
+            <h4 class="subtitle">
+                <!-- PREENCHIDO COM JS -->
+            </h4>
+            <select class="select-box">
+                <option value="all">Todas as Categorias</option>
+                <option value="traditional">Tradicionais</option>
+                <option value="vegetarian">Vegetarianos</option>
+                <option value="top5">Top 5</option>
+            </select>
+            <ul class="meals">
+                <!-- PREENCHIDO COM JS -->
+            </ul>
+        </div>
+
+        <div class="your-order">
+            <h3 class="order-title">
+                <!-- PREENCHIDO COM JS -->
+            </h3>
+            <h4 class="order-subtitle">
+                <!-- PREENCHIDO COM JS -->
+            </h4>
+            <button class="explorar-btn" onclick="callCardapio()">
+                <!-- PREENCHIDO COM JS -->
+            </button>
+            <div class="order-box">
+                <table class="order-list">
+                    <thead class="main-thead">
+                        <!-- PREENCHIDO COM JS -->
+                    </thead>
+                    <thead class="mobile-thead">
+                        <!-- PREENCHIDO COM JS -->
+                    </thead>
+                    <tbody>
+                        <!-- PREENCHIDO COM JS -->
+                    </tbody>
+                    <tfoot class="main-tfoot">
+                        <!-- PREENCHIDO COM JS -->
+                    </tfoot>
+                    <tfoot class="mobile-tfoot">
+                        <!-- PREENCHIDO COM JS -->
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <section class="line">
+                <div class="green"></div>
+                <div class="white"></div>
+                <div class="red"></div>
+            </section>
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/willian-p-santos/">Willian P Santos</a></p>
+        </footer>
+    </div>
+
+</body>
+<script src="js/cardapio.js"></script>
+<script src="js/script.js"></script>
+<script src="js/yourOrder.js"></script>
+<script src="js/responsivity.js"></script>
+<script src="https://kit.fontawesome.com/d2b741dfe0.js" crossorigin="anonymous"></script>
+
+</html>
