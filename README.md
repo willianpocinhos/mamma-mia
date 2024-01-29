@@ -4,24 +4,25 @@
 <p>
   Com o objetivo de fazer o uso das funções de forma mais dinâmica, eu desenvolvi este projeto fictício para o restaurante Mamma Mia.
   <br>
-  Aqui você pode adicionar pratos ao seu pedido, conforme sua escolha. Na versão para desktop o botão 'Adicionar ao Pedido' é exibido ao passar o mouse sobre os cards.
+  <br>
+  Aqui você pode adicionar pratos ao seu pedido, conforme sua escolha. Este projeto é responsivo para diferentes tipos de tela. Na versão para desktop o botão 'Adicionar ao Pedido' é exibido ao passar o mouse sobre os cards.
 </p>
 
-<h3>Cardápio</h3>
+<h3>Cardápio 🍝</h3>
 <p>
   Todos os pratos são exibidos através da função 'foreach'.
 </p>
-<h3>Promoções</h3>
+<h3>Promoções 🏷️</h3>
 <p>
   Os pratos na promoção são exibidos, e através da função 'map' é exibido um novo valor com 15% de desconto.
 </p>
-<h3>Categorias</h3>
+<h3>Categorias 🔎</h3>
 <p>
   São exibidos os pratos conforme a categoria selecionada através da função 'filter'.
 </p>
-<h3>Seu Pedido</h3>
+<h3>Seu Pedido 📄</h3>
 <p>
-  Exibe todos os itens previamente adicionados ao pedido, em forma de lista, mostrando quantidade e subtotal de cada item, e, o valor total do pedido é exibido ao final através da função 'reduce'.
+  Exibe todos os itens previamente adicionados ao pedido, mostrando quantidade e subtotal de cada item, e, o valor total do pedido é exibido ao final através da função 'reduce'.
 </p>
 
 
@@ -31,4 +32,3 @@
 
 <img src="" alt="mamma-mia_mockup">
 
-Aqui você pode adicionar pratos ao seu pedido, conforme sua escolha. Na versão para desktop o botão 'Adicionar ao Pedido' é exibido ao passar o mouse sobre os cards.
