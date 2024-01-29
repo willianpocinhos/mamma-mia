@@ -24,11 +24,9 @@
 <p>
   Exibe todos os itens previamente adicionados ao pedido, mostrando quantidade e subtotal de cada item, e, o valor total do pedido é exibido ao final através da função 'reduce'.
 </p>
-
-
 <br>
 <br>
 <p>Tecnologias utilizadas: HTML, CSS e JavaScript</p>
 
-<img src="" alt="mamma-mia_mockup">
+<img src="https://github.com/willianpocinhos/mamma-mia/blob/master/assets/mammaMia_Mockup.png?raw=true" alt="mamma-mia_mockup">
 
